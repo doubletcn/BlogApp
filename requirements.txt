@@ -4,3 +4,5 @@ sqlparse==0.4.2
 django-taggit==3.0.0
 Markdown==3.4.1
 psycopg2-binary==2.9.3
+gunicorn
+dj-database-url
