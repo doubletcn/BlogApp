@@ -1,0 +1,9 @@
+{% comment %} lặp các bài viết mới nhất đã được lấy ra từ show_latest_posts {% endcomment %}
+
+<ul>
+    {% for post in latest_posts %}
+    <li>
+        <a href="{{ post.get_absolute_url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+</ul>
